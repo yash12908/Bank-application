@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.box {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h1 {
+	text-align: center;
+}
+
+.box form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.box form label {
+	margin-bottom: 10px;
+}
+
+.box form input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+	<h1>Welcome to ABC</h1>
+	<h2>Create A Admin Account</h2>
+	<form action="Adminaccount" method="post">
+		<label for="id">Enter Id:</label>
+		<input type="number" name="id" id="id" required="required">
+
+		<label for=" email">Enter Email:</label>
+		<input type="text" name="email" id=" email" required="required">
+
+		<label for=" password">Enter Password:</label>
+		<input type="number" name="password" id=" password" required="required">
+
+		<input type="submit" value="Submit">
+	</form>
+</div>
+</body>
+</html>
